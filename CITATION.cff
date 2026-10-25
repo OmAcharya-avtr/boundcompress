@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "BoundCompress"
+abstract: ""Certify that the declared error bound held and report what the guarantee cost — explicitly NOT a codec, since numcodecs and zfpy exist and are named and recommended for compression itself; takes a telemetry array and a declared per-sample absolute or relative bound and emits a certificate giving the measured maximum per-sample error and where it occurred, plus a rate-distortion curve against the named codecs at matched measured distortion so the cost of being able to prove the bound is visible rather than asserted; lossless entropy coding of residuals at the bound-implied quantiser step as the hard-to-beat default with the achievable rate bounded below by measured residual entropy, learned residual predictor benchmarked against linear and polynomial extrapolation at identical verified distortion. The bound is asserted on EVERY sample of every test array as a hard test, never as a summary statistic, with a deliberate bound-violation negative control the certificate must fail on, and rate measured as actual encoded bytes rather than estimated from entropy.""
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/boundcompress"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - satellite-communications
